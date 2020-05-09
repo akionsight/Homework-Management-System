@@ -23,10 +23,13 @@ input_ = input(">>> ")
 
 if input_ == 'add':
     add_homework()
+    file.close()
     print("homework added")
 elif input_ == 'list':
     list_homework()
+    file.close()
 elif input_ == 'del':
     turncate()
     print("contents of file deleted")
+    file.close()
     
